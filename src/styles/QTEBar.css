@@ -1,0 +1,59 @@
+.qte-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qte-bar {
+    width: 100px;
+    height: 600px;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 25px;
+    overflow: hidden;
+    background: radial-gradient(circle at bottom, #8b4513, #deb887);
+}
+
+.pendulum {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+}
+
+.zones {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.zone {
+    flex: 1;
+}
+
+.zone.red {
+    background-color: red;
+}
+
+.zone.yellow {
+    background-color: yellow;
+}
+
+.zone.green {
+    background-color: green;
+}
+
+.qte-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
